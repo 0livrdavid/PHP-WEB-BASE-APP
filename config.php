@@ -1,5 +1,5 @@
 <?php
-$GLOBALS['_SENHA_GERAL'] = "synodos@3ipb";
+$GLOBALS['_SENHA_GERAL'] = "senhageral";
 
 $flagError=false;
 if($flagError){
@@ -24,7 +24,7 @@ header("X-XSS-Protection: 1");
 header('X-Frame-Options: deny');
 header("Strict-Transport-Security:max-age=63072000");
 header("X-Content-Type-Options: nosniff");
-define("URL", "http://synodos.com");
+define("URL", "http://");
 
 if (isset($_SERVER['HTTP_ORIGIN']) && $_SERVER['HTTP_ORIGIN'] != URL) {
     echo "Acesso negado";
@@ -78,7 +78,7 @@ $database_server = '127.0.0.1';
 $database_type = 'mysql';
 $database_username = 'admin';
 $database_password = '';
-$database_name = 'faculdade_infoworks';
+$database_name = '';
 $database_port = '';
 
 date_default_timezone_set('America/Sao_Paulo');
