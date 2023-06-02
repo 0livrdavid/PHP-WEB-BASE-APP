@@ -3,7 +3,7 @@ $GLOBALS['_SENHA_GERAL'] = "senhageral";
 
 $flagError=false;
 if($flagError){
-    ini_set('error_reporting', E_ALL); // mesmo resultado de: error_reporting(E_ALL);
+    ini_set('error_reporting', E_ALL);
     ini_set('display_errors', 1);
     error_reporting(E_ALL);
 }else{
